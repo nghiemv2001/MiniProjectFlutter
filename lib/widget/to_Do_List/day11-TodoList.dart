@@ -1,7 +1,7 @@
 import 'package:confirm_dialog/confirm_dialog.dart';
 import 'package:flutter/material.dart';
 
-import 'modal/itemData.dart';
+import '../modal/itemData.dart';
 
 class day11_ToDoList extends StatefulWidget {
   day11_ToDoList({Key? key}) : super(key: key);

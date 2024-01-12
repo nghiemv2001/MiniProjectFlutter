@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
-import '../Dentails/DetailScreen.dart';
+import 'package:miniprojectflutter/Dentails/DetailScreen.dart';
 
 class Day_5 extends StatefulWidget {
   const Day_5({Key? key}) : super(key: key);

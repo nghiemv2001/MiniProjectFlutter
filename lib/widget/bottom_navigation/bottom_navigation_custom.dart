@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:miniprojectflutter/main.dart';
 import 'package:miniprojectflutter/widget/detail/detail_page.dart';
+import 'package:miniprojectflutter/widget/weatherApp/weatherApp.dart';
 
 class Bottom_Navigation_Custom extends StatefulWidget {
   const Bottom_Navigation_Custom({Key? key}) : super(key: key);

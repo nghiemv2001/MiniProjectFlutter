@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../SiderBar/Day6_NavBar.dart';
+import '../../SiderBar/Day6_NavBar.dart';
 
 class Day_6 extends StatefulWidget {
   const Day_6({Key? key}) : super(key: key);
