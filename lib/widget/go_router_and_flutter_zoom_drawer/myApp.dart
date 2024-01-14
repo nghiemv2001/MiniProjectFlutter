@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:miniprojectflutter/widget/go_router_and_flutter_zoom_drawer/pages/home/home_page.dart';
+import 'package:miniprojectflutter/widget/go_router_and_flutter_zoom_drawer/pages/product/product_page.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Home_Page(),
+      home: Product_Page(),
     );
   }
 }
