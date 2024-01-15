@@ -9,11 +9,19 @@ class CategoryPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        children: <Widget>[
-          HeaderCategory(),
-          List_Item_Category(),
-        ],
+      body: SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 8.0),
+          child: Column(
+            children: <Widget>[
+              HeaderCategory(),
+              SizedBox(
+                height: 10,
+              ),
+              List_Item_Category(),
+            ],
+          ),
+        ),
       ),
     );
   }

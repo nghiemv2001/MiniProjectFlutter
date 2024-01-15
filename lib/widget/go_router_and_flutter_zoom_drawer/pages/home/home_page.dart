@@ -14,16 +14,18 @@ class _Home_PageState extends State<Home_Page> {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      body: Padding(
-        padding: EdgeInsets.only(left: 20, right: 20, bottom: 20),
-        child: Column(
-          children: <Widget>[
-            HomeHeader(),
-            SizedBox(height: 15),
-            HomeSearch(),
-            SizedBox(height: 15),
-            HomeListCategory(),
-          ],
+      body: SafeArea(
+        child: Padding(
+          padding: EdgeInsets.only(left: 20, right: 20),
+          child: Column(
+            children: <Widget>[
+              HomeHeader(),
+              SizedBox(height: 15),
+              HomeSearch(),
+              SizedBox(height: 15),
+              HomeListCategory(),
+            ],
+          ),
         ),
       ),
     );
